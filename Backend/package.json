@@ -2,13 +2,19 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "FifaFutApp Server",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
   },
   "author": "Daniel Ancines",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   }
 }
